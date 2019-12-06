@@ -59,7 +59,7 @@ print(e)
 # age, for example ("David", 31), for everyone between the ages of 27 and 32,
 # inclusive.
 print("Names and ages between 27 and 32:")
-f = [(f"{human.name}", human.age)
+f = [(human.name, human.age)
      for human in humans if human.age in range(27, 33)]
 print(f)
 
